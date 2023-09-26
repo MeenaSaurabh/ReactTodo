@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homeimg {
+    width: 100%;
+    height: 100%;
+}
+
+.home-text {
+    padding-top: 4vmax;
+    margin-left: 5vmax;
+    font-size: 3vmax;
+    line-height: 4vmax;
+    color: #ffffff;
+}
+
+.home-text-span1 {
+    margin-left: vmax;
+    font-size: 3vmax;
+}
+
+.home-text-span2 {
+    font-size: 4vmax;
+    padding-top: 10vmax;
+
+}
+
+.home-text-img {
+    width: 13%;
+    height: 13%;
+    color: #FB663E;
+    margin-bottom: 1vmax;
+}
+
+.homebtn {
+    margin-left: 19vmax;
+    margin-top: 4vmax;
+    padding: 1vmax 2.5vmax;
+    font-size: 1.5vmax;
+    background-color: white;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.homebtn:hover {
+    color: #193C62;
+    background-color: #FA9569;
+}
+
+.createbtn {
+    margin-top: -3vmax;
+    padding: 1vmax 1.1vmax;
+    font-size: 1.5vmax;
+    background-color: white;
+    border: none;
+    color: #1d1f22;
+    font-weight: bolder;
+}
+
+.createbtn:hover {
+    color: #FA9569;
+    background-color: #eedec9;
+}
+
+.create-todo-btn {
+    margin-left: 10vmax;
+    margin-top: 1.5vmax;
+    padding: .5vmax 2vmax;
+    margin-bottom: 2vmax;
+    font-size: 2.5vmax;
+    background-color: #DDB867;
+    border: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.create-todo-btn:hover {
+    color: #000000;
+    background-color: #E6C493;
+}
+
+.update-btn {
+    margin-left: 10vmax;
+    margin-top: 1.5vmax;
+    padding: .5vmax 2vmax;
+    margin-bottom: 2vmax;
+    font-size: 1.5vmax;
+    background-color: #DDB867;
+    border: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.update-btn:hover {
+    color: #000000;
+    background-color: #E6C493;
+}
+
+.mytodo {
+    width: 100vw;
+    min-height: 140vh;
+    background-image: url("https://img.freepik.com/free-vector/empty-chalkboard-background-with-copyspace_1308-27610.jpg?w=1060&t=st=1695726694~exp=1695727294~hmac=e51199776a4da8012369520d37ead7887b46e7a6b96c5070419ef5676f79a3b3");
+    background-position: top;
+    background-size: cover;
+}
+
+.createtodo {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/man-writing-something-with-chalk-top-view-frame-black_176474-2892.jpg?w=1060&t=st=1695726556~exp=1695727156~hmac=412f199ac14c3c1ddceb1ac636d430c874de2a3c32361ce0b6c05ca13c310592");
+    background-position: center;
+    background-size: cover;
+}
+
+.updatetodo {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/top-view-colorful-chalk-sponge_23-2148419501.jpg?w=1060&t=st=1695727085~exp=1695727685~hmac=c4e4f79d70c8915250c3cb70697056a984f1495bf63127cf8a4ccec3fb574f6c");
+    background-position: center;
+    background-size: cover;
+}
+
+.mytodo-btw-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2vmax;
+    border-bottom: 2px dotted rgb(58, 56, 56);
+}
+
+@media (max-width:"990px"){
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+}
